@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.download-btn {
+    display: flex;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    padding: 16px;
+    align-items: center;
+    background-color:steelblue;
+    box-shadow: 0 5px 10px rgba(0, 0,0,0);
+    font-size: 30px;
+    transition: all .5s ease;
+    font-weight: bold; 
+}
+ion-icon{
+    font-size: 40px;
+}
+.download-btn:hover{
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+}
+   
+    
+    
